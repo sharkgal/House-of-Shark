@@ -1,0 +1,92 @@
+/*all setting*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    font-size: 16px;
+}
+
+/*header*/
+
+#logo {
+    display: flex;
+    position: fixed;
+    width: 50%;
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+#logo img {
+    width: 8rem;
+    height: 8rem;
+}
+
+#logo p {
+    margin-left: 3rem;
+    font-size: 3rem;
+}
+
+/*missed-her*/
+
+#missed-her {
+    position: fixed;
+    width: 50%;
+    top: 7rem;
+    left: 45%;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    width: 50%;
+}
+
+#missed-her img {
+    width:20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+/*sharks*/
+
+#sharks {
+    position: fixed;
+    width: 25%;
+    height: 67%;
+    top: 10rem;
+    left: 8rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    background-color: white;
+    border-radius: 40px;
+    overflow: scroll;
+    overflow-x: hidden;   
+}
+
+#sharks::-webkit-scrollbar {
+    display: none;
+}
+
+a:link {
+    color: rgb(255, 159, 175);
+}
+
+a:visited {
+    color: rgb(255, 159, 175);
+}
+
+/*footer*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 5rem;
+    line-height: .3rem;
+}
