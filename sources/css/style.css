@@ -7,9 +7,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../images/background.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 html {
@@ -19,74 +16,74 @@ html {
 /*header*/
 
 #logo {
-    display: flex;
     position: fixed;
-    width: 50%;
-    padding-top: 1rem;
-    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    padding: 0 5rem
 }
 
 #logo img {
-    width: 8rem;
-    height: 8rem;
+    height: 100%;
 }
 
 #logo p {
-    margin-left: 3rem;
     font-size: 3rem;
+    margin-left: 3rem;
+}
+
+/*main*/
+
+main {
+    position: fixed;
+    top: 15%;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../images/pink1.jpg');
+    background-size: cover;
+
 }
 
 /*missed-her*/
 
 #missed-her {
-    position: fixed;
-    width: 50%;
-    top: 7rem;
-    left: 45%;
-    padding-right: 5rem;
-    padding-top: 3rem;
-    width: 50%;
+    margin: 3rem 14rem;
+    width: 30%;
 }
 
 #missed-her img {
-    width:20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
 }
 
 /*sharks*/
 
 #sharks {
-    position: fixed;
-    width: 25%;
-    height: 67%;
-    top: 10rem;
-    left: 8rem;
-    padding-left: 3rem;
-    padding-right: 1rem;
     background-color: white;
-    border-radius: 40px;
-    overflow: scroll;
-    overflow-x: hidden;   
+    border-radius: 30px;
+    padding-left: 1rem;
+    margin: 3rem 14rem 3rem 0;
+    width: 35%;
+    overflow-y: scroll;
 }
 
 #sharks::-webkit-scrollbar {
     display: none;
 }
 
-a:link {
-    color: rgb(255, 159, 175);
-}
-
-a:visited {
-    color: rgb(255, 159, 175);
-}
-
 /*footer*/
 
 footer {
+    background-color: rgb(244, 212, 218);
+    color: white;
     position: fixed;
     bottom: 0;
-    left: 5rem;
-    line-height: .3rem;
+    padding-left: 1rem;
+    line-height: .2rem;
+    width: 100%;
+    height: 5%;
 }
