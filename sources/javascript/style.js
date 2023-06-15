@@ -8,10 +8,10 @@ const printOutMessage = () => {
             return 'Shark gal did not reply to you...She might be sleeping right now:(';
             break;
         case 2:
-            return 'Shark gal replied! She said: I love you...Can we cuddle when you are home tonight?';
+            return 'Shark gal replied! She said: I love you...I want cuddle with you when you are home tonight.';
             break;
         case 3:
-            return 'Shark gal replied! She said: Send me more messages! I really need you.';
+            return 'Shark gal replied! She said: Send me more messages. I really need you.';
             break;
         case 4:
             return 'Shark gal did not reply to you...She is working right now. Sad.';
@@ -20,16 +20,16 @@ const printOutMessage = () => {
             return 'Shark gal replied! She said: I want kisses -3-';
             break;
         case 6:
-            return 'Shark gal replied! She said: I have a headache. I need you.';
+            return 'Shark gal replied! She said: My back hurts:( I am done with this assignment:(';
             break;
         case 7:
-            return 'Shark gal replied! She said: Babe can you bring me some candy home? love ya!';
+            return 'Shark gal replied! She said: Can you bring me some candy home? Love you!';
             break;
         case 8:
-            return 'Shark gal did not reply to you...She is mad at you because you did not gave her kisses this morning when you went out!';
+            return 'Shark gal did not reply to you...She is mad at you because you did not gave her kisses this morning when you went out.';
             break;
         case 9:
-            return 'Shark gal replied a emoji. Looks like she is sad.';
+            return 'Shark gal replied a emoji. Looks like she is not in a good mood.';
             break;
 
     }
