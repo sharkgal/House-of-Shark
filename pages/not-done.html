@@ -3,22 +3,85 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/sources/css/not-done-style.css">
+        <style>
+            * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 237, 240);
+}
+
+html {
+    font-size: 16px;
+}
+
+#logo {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 5rem
+}
+
+#logo img {
+    height: 100%;
+}
+
+#logo p {
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+main {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+main img {
+    width: 150px;
+}
+
+a:link {
+    color: rgb(255, 102, 128);
+}
+
+a:visited {
+    color: rgb(255, 102, 128);
+}
+
+@media only screen and (max-width: 500px) {
+    #logo {
+        height: 80px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    #logo p {
+        font-size: 1.5rem;
+        margin-left: .5rem;
+    }
+}
+        </style>
         <title>Wait A Second</title>
     </head>
     <body>
         <!--logo-->
         <section id="logo">
-            <img src="/sources/images/logo.png" alt="logo">
+            <img src="https://raw.githubusercontent.com/sharkgal/House-of-Shark/master/sources/images/logo.png" alt="logo">
             <p>House of Sharks</p>
         </section>
         <!--main-->
         <main>
             <h1>HOLD ON</h1>
-            <img src="/sources/images/e.png">
-            <img src="/sources/images/hunting.png" alt="shark">
+            <img src="https://raw.githubusercontent.com/sharkgal/House-of-Shark/master/sources/images/e.png">
+            <img src="https://github.com/sharkgal/House-of-Shark/blob/master/sources/images/hunting.png?raw=true" alt="shark">
             <p>Sharks went to hunt and will be back soon. Please enter the room after they come back:)</p>
-            <p><a href="/index.html">Back to the Livingroom</a></p>
+            <p><a href="https://sharkgal.github.io/House-of-Shark/">Back to the Livingroom</a></p>
         </main>
     </body>
 </html>
